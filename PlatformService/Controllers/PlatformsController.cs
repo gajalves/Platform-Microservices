@@ -53,9 +53,7 @@ namespace PlatformService.Controllers
                 return Ok(platformRead);                
             }
 
-
             return BadRequest();
-
         }
     }
 }
